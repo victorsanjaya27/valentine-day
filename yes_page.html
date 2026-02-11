@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Knew you would say yes!</title>
+    <link rel="stylesheet" href="./yes_style.css" />
+    <style>
+      .next-btn {
+        margin-top: 20px;
+        padding: 12px 25px;
+        font-size: 18px;
+        background-color: #ff4d6d;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .next-btn:hover {
+        background-color: #e6004c;
+        transform: scale(1.1);
+      }
+
+      .gift-text {
+        margin-top: 15px;
+        font-size: 18px;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header_text">I knew you would say yes! ❤️</h1>
+
+      <div class="gif_container">
+        <img
+          src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmo3c3l5ODh3ZGN6NHhhaDE2Mjg1ZjkwOXczdDFxbWM3dTBtaW9zaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/9XY4f3FgFTT4QlaYqa/giphy.gif"
+        />
+      </div>
+
+      <p class="gift-text">
+        But wait... I have something special for you 🎁✨ Click below
+      </p>
+
+      <button class="next-btn" onclick="goToNextPage()">Gift for you 🎁</button>
+    </div>
+
+    <script>
+      function goToNextPage() {
+        window.location.href = "valentine-main/index.html";
+        // Ganti dengan nama file tujuan kamu
+      }
+    </script>
+  </body>
+</html>
